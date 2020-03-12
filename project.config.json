@@ -1,5 +1,5 @@
 {
-	"miniprogramRoot": "miniprogram/",
+	"miniprogramRoot": "QChat/",
 	"cloudfunctionRoot": "cloudfunctions/",
 	"setting": {
 		"urlCheck": true,
@@ -9,11 +9,12 @@
 		"newFeature": true,
 		"enhance": true
 	},
-	"appid": "touristappid",
+	"appid": "wx486668611af2b5da",
 	"projectname": "QChat",
 	"libVersion": "2.8.1",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
 	"condition": {
 		"search": {
 			"current": -1,

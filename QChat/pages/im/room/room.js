@@ -10,7 +10,7 @@ Page({
     // chatRoomEnvId: 'release-f8415a',
     chatRoomCollection: 'chatroom',
     chatRoomGroupId: 'demo',
-    chatRoomGroupName: '聊天室',
+    chatRoomGroupName: 'Conversation',
 
     // functions for used in chatroom components
     onGetUserInfo: null,
@@ -18,6 +18,8 @@ Page({
   },
 
   onLoad: function() {
+    console.log('onLoad')
+
     // 获取用户信息
     wx.getSetting({
       success: res => {
@@ -51,6 +53,22 @@ Page({
         }
       },
     })
+  },
+
+  onReady: function() {
+    console.log('onReady')
+  },
+
+  onShow() {
+    console.log('onShow')
+  },
+
+  onHide() {
+    console.log('onHide')
+  },
+
+  onUnload() {
+    console.log('onUnload')
   },
 
   getOpenID: async function() {
